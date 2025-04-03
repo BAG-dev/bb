@@ -1,0 +1,30 @@
+.custom-btn {
+    background: rgb(46, 1, 77);
+    color: white;
+    border: none;
+    padding: 24px 40px;
+    /* Increased padding for larger button */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 22px;
+    /* Larger font size */
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    /* Make button full width */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    /* Make button text uppercase for emphasis */
+    letter-spacing: 1px;
+}
+
+.custom-btn:hover {
+    background: rgb(218, 181, 248);
+    /* Slightly lighter on hover */
+}
+
+.custom-btn:active {
+    background: rgb(153, 0, 255);
+    /* Darker on click */
+}

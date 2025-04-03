@@ -1,0 +1,145 @@
+body {
+    background-image: url('gif1.gif');
+    background-size: cover;
+    height: 150vh;
+    padding: 0;
+    margin: 0;
+}
+
+.field .item {
+    width: 100%;
+    padding: 22px;
+    /* Increased padding */
+    background: rgba(230, 210, 255, 0.9);
+    /* Light purple with 90% opacity */
+    border: 5px solid rgb(153, 0, 255);
+    outline: none;
+    border-radius: 6px;
+    font-size: 18px;
+    /* Larger font size for input text */
+}
+
+/* Additional styling for the form */
+.contact-form {
+    max-width: 700px;
+    /* Increased max-width */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    /* Larger heading */
+}
+
+/* Make all inputs match the styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 22px;
+    /* Increased padding */
+    background: rgba(230, 210, 255, 0.9);
+    /* Light purple with 90% opacity */
+    border: 2px solid rgb(255, 0, 255);
+    outline: none;
+    border-radius: 6px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+    /* Larger font size for text input */
+}
+
+/* Make textarea larger */
+textarea {
+    height: 200px;
+    /* Taller textarea */
+}
+
+label {
+    font-family: 'Rubik', sans-serif;
+    display: block;
+    margin-bottom: 8px;
+    /* More space below labels */
+    font-size: 20px;
+    /* Larger label text */
+    font-weight: 500;
+    /* Slightly bolder */
+}
+
+/* Add more space between form fields */
+.field {
+    margin-bottom: 30px;
+}
+
+/* Larger button styling */
+button[type="submit"] {
+    background: rgb(153, 0, 255);
+    color: white;
+    border: none;
+    padding: 24px 40px;
+    /* Increased padding for larger button */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 22px;
+    /* Larger font size */
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    /* Make button full width */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    /* Make button text uppercase for emphasis */
+    letter-spacing: 1px;
+}
+
+.custom-btn {
+    background: rgb(46, 1, 77);
+    color: white;
+    border: none;
+    padding: 24px 40px;
+    /* Increased padding for larger button */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 22px;
+    /* Larger font size */
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    /* Make button full width */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    /* Make button text uppercase for emphasis */
+    letter-spacing: 1px;
+}
+
+.custom-btn:hover {
+    background: rgb(218, 181, 248);
+    /* Slightly lighter on hover */
+}
+
+button:hover {
+    background-color: #a190dc;
+    cursor: pointer;
+}
+
+/* Add a container for the entire form with a semi-transparent background */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    /* More padding */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Placeholder text styling */
+::placeholder {
+    opacity: 0.7;
+    font-size: 16px;
+}
